@@ -5,6 +5,7 @@
 ans=0
 # The dial starts at 50.
 cur=50
+# Added log function because my dumb ass thought I fucked something up with inputs over 100, but in reality I didn't copy all the input values into the text file.
 def log(message):
     if LOGS:
         print(message)
